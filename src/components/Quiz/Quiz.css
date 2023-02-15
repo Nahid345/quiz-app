@@ -1,0 +1,40 @@
+.content{
+    border: 2px solid #ff512f;
+} 
+
+.bg-img{
+    background-color: #222;
+}
+
+
+.startButton{
+    background-image:linear-gradient(to right, #ff512f, #f09819);
+    color: #fff;
+    height: 6vh;
+    width: 9vw;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .startButton{
+        height: 10vh;
+        width: 20vw;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .startButton{
+        height: 10vh;
+        width: 20vw;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .startButton{
+        height: 10vh;
+        width: 20vw;
+    }
+}
