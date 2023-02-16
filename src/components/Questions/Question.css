@@ -1,0 +1,11 @@
+.options{
+    list-style: none;
+    
+}
+.options li{
+    background:#ff512f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5% 0;
+    margin: 3% 0;
+}
